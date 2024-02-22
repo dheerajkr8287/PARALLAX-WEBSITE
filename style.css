@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+
+}
+.pimg1,.pimg2,.pimg3,.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg1{
+    background-image: url(cristina-gottardi-CSpjU6hYo_0-unsplash.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pimg2{
+    background-image: url(night3.jpg);
+    min-height: 100%;
+    
+}
+.pimg3{
+    background-image: url(lake3.jpg);
+    height: 100%;
+    
+}
+.pimg4{
+    background-image: url(Trip-To-Leh-Ladakhu.jpg);
+    height: 100%;
+    
+}
+
+.text1{
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    width: 100%;
+    color: #171616;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    
+}
+.textbg{
+    background-color: #646060;
+    padding: 30px 50px;
+    border-radius: 5px;
+}
+.web{
+    font-size: medium;
+}
+.head2{
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.para{
+    
+    margin-right: 80px;
+    margin-left:80px;
+    margin-bottom: 30px;
+    background-color: #f6f6f6;
+    padding: 20px;
+    
+    
+    
+
+}
+.para1{
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+.para2{
+    background-color: rgb(86, 78, 78);
+    color: rgb(171, 159, 159);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.para3{
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+@media (max-width: 713px) {
+    .textbg{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px , 1fr));
+        gap: 20px;
+    }
+}
